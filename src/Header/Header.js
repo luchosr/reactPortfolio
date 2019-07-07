@@ -16,6 +16,7 @@ const Header = () => (
         </h1>
       </div>
     </div>
+    <div className="main__socialMedia" />
   </div>
 );
 
