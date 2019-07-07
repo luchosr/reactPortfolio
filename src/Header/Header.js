@@ -10,6 +10,10 @@ const Header = () => (
           src={profile}
           alt="Luciano's profile image"
         />
+        <h1>
+          <strong>Hi! I'm Luciano</strong>, a Front-end Web Developer enthusiast
+          and passionate for new internet technologies.
+        </h1>
       </div>
     </div>
   </div>

@@ -2,6 +2,7 @@
   background-image: url("../img/background.jpg");
   background-size: cover;
   height: 100vh;
+  font-family: "Montserrat", sans-serif;
 }
 .main__header {
   width: 100%;
@@ -15,8 +16,24 @@
   width: 100px;
   border-radius: 50%;
 }
+.main h1 {
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.55);
+  font-weight: 400;
+  vertical-align: baseline;
+  line-height: 1.75em;
+  font-weight: bolder;
+}
+.main h1 strong {
+  color: #ffffff;
+}
 @media (max-width: 480px) {
   .main__header {
     padding: 4.5em 1.5em;
+  }
+}
+@media (max-width: 736px) {
+  .main h1 {
+    font-size: 1.35em;
   }
 }
