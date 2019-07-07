@@ -1,14 +1,20 @@
 .main {
-  background: hsl(0, 75%, 42%);
   background-image: url("../img/background.jpg");
   background-size: cover;
-  color: blue;
   height: 100vh;
 }
 .main__header {
   width: 100%;
 }
-
+.main__header__inner {
+  width: 272px;
+  height: 309px;
+}
+.main__header__inner__avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
 @media (max-width: 480px) {
   .main__header {
     padding: 4.5em 1.5em;
