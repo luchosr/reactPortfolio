@@ -1,0 +1,16 @@
+.main {
+  background: hsl(0, 75%, 42%);
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  color: blue;
+  height: 100vh;
+}
+.main__header {
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .main__header {
+    padding: 4.5em 1.5em;
+  }
+}
