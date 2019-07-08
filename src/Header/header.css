@@ -1,17 +1,15 @@
 .container {
-  background-image: url("../img/background.jpg");
-  background-size: cover;
-  height: 100vh;
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
 }
 .header {
-  width: 100%;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
 }
 .header__inner {
-  width: 272px;
-  height: 309px;
+  width: 100%;
+  margin-bottom: 30px;
 }
 .header__inner__avatar {
   height: 130px;
@@ -22,7 +20,9 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 35px;
+  padding: 20px 10px 0 10px;
+
+  margin: 0 auto;
   color: rgba(255, 255, 255, 0.55);
 }
 
@@ -46,7 +46,6 @@
 @media (max-width: 480px) {
   .header {
     padding: 4.5em 1.5em;
-    margin: 0 auto;
   }
 }
 @media (max-width: 736px) {
