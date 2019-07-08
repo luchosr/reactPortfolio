@@ -22,46 +22,46 @@ const Header = () => (
           and passionate for new internet technologies.
         </h1>
       </div>
-    </div>
-    <div className="socialMedia">
-      <div className="socialMedia__icon">
-        {" "}
-        <a
-          href="https://twitter.com/luchosr10"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon icon={faTwitter} size="2x" />
-        </a>
-      </div>
-      <div className="socialMedia__icon">
-        <a
-          href="https://github.com/luchosr"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+      <div className="socialMedia">
+        <div className="socialMedia__icon">
           {" "}
-          <FontAwesomeIcon icon={faGithub} size="2x" />
-        </a>
-      </div>{" "}
-      <div className="socialMedia__icon">
-        <a
-          href="mailto:luchosr@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon icon={faEnvelope} size="2x" />
-        </a>
-      </div>
-      <div className="socialMedia__icon">
-        {" "}
-        <a
-          href="https://www.linkedin.com/in/luciano-ramello-b45411143/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon icon={faLinkedin} size="2x" />
-        </a>
+          <a
+            href="https://twitter.com/luchosr10"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faTwitter} size="2x" />
+          </a>
+        </div>
+        <div className="socialMedia__icon">
+          <a
+            href="https://github.com/luchosr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            <FontAwesomeIcon icon={faGithub} size="2x" />
+          </a>
+        </div>{" "}
+        <div className="socialMedia__icon">
+          <a
+            href="mailto:luchosr@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faEnvelope} size="2x" />
+          </a>
+        </div>
+        <div className="socialMedia__icon">
+          {" "}
+          <a
+            href="https://www.linkedin.com/in/luciano-ramello-b45411143/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faLinkedin} size="2x" />
+          </a>
+        </div>
       </div>
     </div>
   </div>
