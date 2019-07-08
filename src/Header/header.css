@@ -1,22 +1,24 @@
-.main {
+.container {
   background-image: url("../img/background.jpg");
   background-size: cover;
   height: 100vh;
   font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
-.main__header {
+.header {
   width: 100%;
 }
-.main__header__inner {
+.header__inner {
   width: 272px;
   height: 309px;
 }
-.main__header__inner__avatar {
+.header__inner__avatar {
   height: 130px;
   width: 130px;
   border-radius: 50%;
 }
-.main__socialMedia {
+.socialMedia {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -24,13 +26,13 @@
   color: rgba(255, 255, 255, 0.55);
 }
 
-.main__socialMedia__icon {
+.socialMedia__icon {
   margin: 10px;
 }
-.main__socialMedia__icon a:visited {
+.socialMedia__icon a:visited {
   color: rgba(255, 255, 255, 0.55);
 }
-.main h1 {
+.header h1 {
   margin-top: 50px;
   color: rgba(255, 255, 255, 0.55);
   font-weight: 400;
@@ -38,16 +40,17 @@
   line-height: 1.75em;
   font-weight: bolder;
 }
-.main h1 strong {
+.header h1 strong {
   color: #ffffff;
 }
 @media (max-width: 480px) {
-  .main__header {
+  .header {
     padding: 4.5em 1.5em;
+    margin: 0 auto;
   }
 }
 @media (max-width: 736px) {
-  .main h1 {
+  .header h1 {
     font-size: 1.35em;
   }
 }

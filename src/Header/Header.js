@@ -9,11 +9,11 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 const Header = () => (
-  <div className="main">
-    <div className="main__header">
-      <div className="main__header__inner">
+  <div className="container">
+    <div className="header">
+      <div className="header__inner">
         <img
-          className="main__header__inner__avatar"
+          className="header__inner__avatar"
           src={profile}
           alt="Luciano's profile image"
         />
@@ -23,8 +23,8 @@ const Header = () => (
         </h1>
       </div>
     </div>
-    <div className="main__socialMedia">
-      <div className="main__socialMedia__icon">
+    <div className="socialMedia">
+      <div className="socialMedia__icon">
         {" "}
         <a
           href="https://twitter.com/luchosr10"
@@ -34,7 +34,7 @@ const Header = () => (
           <FontAwesomeIcon icon={faTwitter} size="2x" />
         </a>
       </div>
-      <div className="main__socialMedia__icon">
+      <div className="socialMedia__icon">
         <a
           href="https://github.com/luchosr"
           target="_blank"
@@ -44,7 +44,7 @@ const Header = () => (
           <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
       </div>{" "}
-      <div className="main__socialMedia__icon">
+      <div className="socialMedia__icon">
         <a
           href="mailto:luchosr@gmail.com"
           target="_blank"
@@ -53,7 +53,7 @@ const Header = () => (
           <FontAwesomeIcon icon={faEnvelope} size="2x" />
         </a>
       </div>
-      <div className="main__socialMedia__icon">
+      <div className="socialMedia__icon">
         {" "}
         <a
           href="https://www.linkedin.com/in/luciano-ramello-b45411143/"
