@@ -25,6 +25,11 @@ const Main = () => {
       </section>
       <section className="main__second">
         <h2>Recent Projects</h2>
+        <div className="main__secod__projects">
+          <div className="main__secod__projects__item" />
+          <div className="main__secod__projects__item" />
+          <div className="main__secod__projects__item" />
+        </div>
       </section>
     </div>
   );
