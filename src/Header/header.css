@@ -6,9 +6,10 @@
 .header {
   background-image: url("../img/background.jpg");
   background-size: cover;
+  flex-direction: column;
 }
 .header__inner {
-  width: 100%;
+  display: block;
   margin-bottom: 30px;
 }
 .header__inner__avatar {
@@ -28,6 +29,7 @@
 
 .socialMedia__icon {
   margin: 10px;
+  color: #ffffff;
 }
 .socialMedia__icon a:visited {
   color: rgba(255, 255, 255, 0.55);
@@ -45,7 +47,7 @@
 }
 @media (max-width: 480px) {
   .header {
-    padding: 4.5em 1.5em;
+    padding: 45px 15px 55px 15px;
   }
 }
 @media (max-width: 736px) {

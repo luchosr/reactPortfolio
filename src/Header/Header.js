@@ -15,7 +15,7 @@ const Header = () => (
         <img
           className="header__inner__avatar"
           src={profile}
-          alt="Luciano's profile image"
+          alt="Luciano's profile"
         />
         <h1>
           <strong>Hi! I'm Luciano</strong>, a Front-end Web Developer enthusiast
