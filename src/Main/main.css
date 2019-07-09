@@ -27,3 +27,8 @@ a:visited {
   padding: 36px 0 36px 0;
   border-top: 2px solid #e8e1dd;
 }
+.main__second__projects__item__img {
+  width: 255px;
+  height: 160px;
+  border-radius: 10px;
+}

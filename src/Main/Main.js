@@ -1,5 +1,6 @@
 import React from "react";
 import "./main.css";
+import first from "../img/projects/first.jpg";
 
 const Main = () => {
   //const recentWork =
@@ -25,10 +26,34 @@ const Main = () => {
       </section>
       <section className="main__second">
         <h2>Recent Projects</h2>
-        <div className="main__secod__projects">
-          <div className="main__secod__projects__item" />
-          <div className="main__secod__projects__item" />
-          <div className="main__secod__projects__item" />
+        <div className="main__second__projects">
+          <div className="main__second__projects__item">
+            <img
+              src={first}
+              alt="first project"
+              className="main__second__projects__item__img"
+            />
+            <h3>Project 1</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div className="main__second__projects__item">
+            <img
+              src={first}
+              alt="first project"
+              className="main__second__projects__item__img"
+            />
+            <h3>Project 2</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div className="main__second__projects__item">
+            <img
+              src={first}
+              alt="first project"
+              className="main__second__projects__item__img"
+            />
+          </div>
+          <h3>Project 3</h3>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
       </section>
     </div>
