@@ -1,5 +1,6 @@
 import React from "react";
 import "./main.css";
+import first from "../img/projects/first.jpg";
 
 const Main = () => {
   //const recentWork =
@@ -20,15 +21,54 @@ const Main = () => {
           ullam. Officiis, aperiam placeat.
         </p>
         <div className="main__first__paragraph__button">
-          <a href="">Learn More</a>
+          <a
+            href="https://www.linkedin.com/in/luciano-ramello-b45411143/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn More
+          </a>
         </div>
       </section>
       <section className="main__second">
         <h2>Recent Projects</h2>
-        <div className="main__secod__projects">
-          <div className="main__secod__projects__item" />
-          <div className="main__secod__projects__item" />
-          <div className="main__secod__projects__item" />
+        <div className="main__second__projects">
+          <div className="main__second__projects__item">
+            <img
+              src={first}
+              alt="first project"
+              className="main__second__projects__item__img"
+            />
+            <h3>Project 1</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div className="main__second__projects__item">
+            <img
+              src={first}
+              alt="first project"
+              className="main__second__projects__item__img"
+            />
+            <h3>Project 2</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div className="main__second__projects__item">
+            <img
+              src={first}
+              alt="first project"
+              className="main__second__projects__item__img"
+            />
+          </div>
+          <h3>Project 3</h3>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div className="main__first__paragraph__button">
+          <a
+            href="https://github.com/luchosr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            See them on Github
+          </a>
         </div>
       </section>
     </div>
