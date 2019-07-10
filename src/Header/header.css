@@ -4,6 +4,7 @@
   flex-direction: column;
 }
 .header {
+  height: 100vh;
   background-image: url("../img/background.jpg");
   background-size: cover;
   flex-direction: column;
