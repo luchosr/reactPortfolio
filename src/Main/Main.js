@@ -21,7 +21,13 @@ const Main = () => {
           ullam. Officiis, aperiam placeat.
         </p>
         <div className="main__first__paragraph__button">
-          <a href="">Learn More</a>
+          <a
+            href="https://www.linkedin.com/in/luciano-ramello-b45411143/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn More
+          </a>
         </div>
       </section>
       <section className="main__second">
@@ -54,6 +60,15 @@ const Main = () => {
           </div>
           <h3>Project 3</h3>
           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div className="main__first__paragraph__button">
+          <a
+            href="https://github.com/luchosr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            See them on Github
+          </a>
         </div>
       </section>
     </div>
