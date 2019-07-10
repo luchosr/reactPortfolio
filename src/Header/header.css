@@ -4,10 +4,11 @@
   flex-direction: column;
 }
 .header {
-  height: 100vh;
+  height: 75vh;
   background-image: url("../img/background.jpg");
   background-size: cover;
   flex-direction: column;
+  padding: 25% 15% 25% 15%;
 }
 .header__inner {
   display: block;
@@ -46,11 +47,13 @@
 .header h1 strong {
   color: #ffffff;
 }
-@media (max-width: 480px) {
+@media (max-width: 320px) {
   .header {
+    height: 100vh;
     padding: 45px 15px 55px 15px;
   }
 }
+
 @media (max-width: 736px) {
   .header h1 {
     font-size: 1.35em;
