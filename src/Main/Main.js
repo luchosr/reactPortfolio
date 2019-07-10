@@ -1,6 +1,13 @@
 import React from "react";
 import "./main.css";
 import first from "../img/projects/first.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faTwitter,
+  faLinkedin
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Main = () => {
   //const recentWork =
@@ -69,6 +76,41 @@ const Main = () => {
           >
             See them on Github
           </a>
+        </div>
+      </section>
+      <section>
+        <h2>Get In Touch</h2>
+        <p>Feel free to contact me by the following social networks!</p>
+
+        <div className="socialMedia">
+          <div className="socialMedia__icon bottom">
+            <a
+              href="https://twitter.com/luchosr10"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faTwitter} size="2x" />
+            </a>
+          </div>
+
+          <div className="socialMedia__icon">
+            <a
+              href="mailto:luchosr@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faEnvelope} size="2x" />
+            </a>
+          </div>
+          <div className="socialMedia__icon">
+            <a
+              href="https://www.linkedin.com/in/luciano-ramello-b45411143/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} size="2x" />
+            </a>
+          </div>
         </div>
       </section>
     </div>
