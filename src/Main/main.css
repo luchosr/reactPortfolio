@@ -36,5 +36,9 @@ a:visited {
 .bottom {
   color: #8e8884;
 }
-@media (max-width: 375px) {
+@media (min-width: 1024px) {
+  .main {
+    height: 100vh;
+    overflow: scroll;
+  }
 }
