@@ -29,10 +29,12 @@ a:visited {
   border-bottom: 2px solid #e8e1dd;
 }
 .main__second__projects__item__img {
-  width: 255px;
-  height: 160px;
-  border-radius: 10px;
+  width: 90%;
+  height: 70%;
+  border-radius: 5px;
 }
 .bottom {
   color: #8e8884;
+}
+@media (max-width: 375px) {
 }
