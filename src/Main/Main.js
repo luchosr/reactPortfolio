@@ -41,11 +41,18 @@ const Main = () => {
         <h2>Recent Projects</h2>
         <div className="main__second__projects">
           <div className="main__second__projects__item">
-            <img
-              src={superMarketList}
-              alt="first project"
-              className="main__second__projects__item__img"
-            />
+            <a
+              href="https://supermarketlist.netlify.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={superMarketList}
+                alt="first project"
+                className="main__second__projects__item__img"
+              />
+            </a>
+
             <h3>Super Market List</h3>
             <p>
               {" "}
