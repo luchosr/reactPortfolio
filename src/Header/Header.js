@@ -24,7 +24,6 @@ const Header = () => (
       </div>
       <div className="socialMedia">
         <div className="socialMedia__icon">
-          {" "}
           <a
             href="https://twitter.com/luchosr10"
             target="_blank"
@@ -39,10 +38,9 @@ const Header = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            {" "}
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
-        </div>{" "}
+        </div>
         <div className="socialMedia__icon">
           <a
             href="mailto:luchosr@gmail.com"
@@ -53,7 +51,6 @@ const Header = () => (
           </a>
         </div>
         <div className="socialMedia__icon">
-          {" "}
           <a
             href="https://www.linkedin.com/in/luciano-ramello-b45411143/"
             target="_blank"

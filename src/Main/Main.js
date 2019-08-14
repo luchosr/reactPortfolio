@@ -1,17 +1,13 @@
 import React from "react";
 import "./main.css";
-import first from "../img/projects/first.jpg";
+import fakeMDN from "../img/projects/fakeMDN.png";
+import initab from "../img/projects/initab.png";
+import superMarketList from "../img/projects/superMarketList.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faTwitter,
-  faLinkedin
-} from "@fortawesome/free-brands-svg-icons";
+import { faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Main = () => {
-  //const recentWork =
-
   return (
     <div className="main">
       <section className="main__first">
@@ -22,10 +18,14 @@ const Main = () => {
           </h2>
         </header>
         <p className="main__first__paragraph">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas,
-          libero! Quisquam aut totam odio exercitationem inventore magnam quidem
-          mollitia rerum aliquid voluptatem, dolor, numquam eligendi ipsam
-          ullam. Officiis, aperiam placeat.
+          I usually perceive myself as a person with a
+          <strong> lot of curiosity and astonishment capacity</strong>, when I
+          am not working on my projects, I'm usually swimming, going to the
+          theater or volunteering. I am currently developing as a co-organizer
+          of freeCodeCamp Buenos Aires by stimulating web programming learning
+          (and also learning in the process) and as an organizer of the Bitcoin
+          Argentina NGO spreading the qualities of Bitcoin and decentralized
+          consensus systems.
         </p>
         <div className="main__first__paragraph__button">
           <a
@@ -42,31 +42,56 @@ const Main = () => {
         <div className="main__second__projects">
           <div className="main__second__projects__item">
             <img
-              src={first}
+              src={superMarketList}
               alt="first project"
               className="main__second__projects__item__img"
             />
-            <h3>Project 1</h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>Super Market List</h3>
+            <p>
+              {" "}
+              A list App made using React.js, using memory storage, and working
+              with a simulated API REST.
+            </p>
           </div>
           <div className="main__second__projects__item">
-            <img
-              src={first}
-              alt="first project"
-              className="main__second__projects__item__img"
-            />
-            <h3>Project 2</h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a
+              href="https://initabclone.netlify.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={initab}
+                alt="initab clone"
+                className="main__second__projects__item__img"
+              />
+            </a>
+            <h3> Initab Clone</h3>
+            <p>
+              {" "}
+              A hand made clone of initab extension, using React.js, React Hooks
+              and Local Storage persistence.{" "}
+            </p>
           </div>
           <div className="main__second__projects__item">
-            <img
-              src={first}
-              alt="first project"
-              className="main__second__projects__item__img"
-            />
+            <a
+              href="https://eebalcarcel.github.io/project-one-fakemdn/index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <img
+                src={fakeMDN}
+                alt="first project"
+                className="main__second__projects__item__img"
+              />
+            </a>
           </div>
-          <h3>Project 3</h3>
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h3>Fake MDN</h3>
+          <p>
+            {" "}
+            A Mozilla Developer Network clone made in collaboration with 2
+            developers.
+          </p>
         </div>
         <div className="main__first__paragraph__button">
           <a
