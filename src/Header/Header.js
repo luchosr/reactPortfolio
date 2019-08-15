@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import profile from "../img/profile.jpg";
+import profile2 from "../img/profile2.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -14,7 +14,7 @@ const Header = () => (
       <div className="header__inner">
         <img
           className="header__inner__avatar"
-          src={profile}
+          src={profile2}
           alt="Luciano's profile"
         />
         <h1>

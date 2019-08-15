@@ -3,8 +3,6 @@ a:visited {
 }
 .container {
   font-family: "Montserrat", sans-serif;
-  /* display: flex;
-  flex-direction: column; */
 }
 .header {
   height: 100vh;
