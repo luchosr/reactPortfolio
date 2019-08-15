@@ -22,12 +22,12 @@ const Main = () => {
           <strong> lot of curiosity and astonishment capacity</strong>, when I
           am not working on my projects, I'm usually swimming, going to the
           theater or volunteering. I am currently developing as a co-organizer
-          of freeCodeCamp Buenos Aires by stimulating web programming learning
-          (and also learning in the process) and as an organizer of the Bitcoin
+          of freeCodeCamp Buenos Aires by stimulating web programming learning (
+          also learning in the process) and as an organizer of the Bitcoin
           Argentina NGO spreading the qualities of Bitcoin and decentralized
           consensus systems.
         </p>
-        <div className="main__first__paragraph__button">
+        <div className="main__first__paragraph__button brown">
           <a
             href="https://www.linkedin.com/in/luciano-ramello-b45411143/"
             target="_blank"
@@ -40,26 +40,6 @@ const Main = () => {
       <section className="main__second">
         <h2>Recent Projects</h2>
         <div className="main__second__projects">
-          <div className="main__second__projects__item">
-            <a
-              href="https://supermarketlist.netlify.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={superMarketList}
-                alt="first project"
-                className="main__second__projects__item__img"
-              />
-            </a>
-
-            <h3>Super Market List</h3>
-            <p>
-              {" "}
-              A list App made using React.js, using memory storage, and working
-              with a simulated API REST.
-            </p>
-          </div>
           <div className="main__second__projects__item">
             <a
               href="https://initabclone.netlify.com/"
@@ -81,6 +61,27 @@ const Main = () => {
           </div>
           <div className="main__second__projects__item">
             <a
+              href="https://supermarketlist.netlify.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={superMarketList}
+                alt="first project"
+                className="main__second__projects__item__img"
+              />
+            </a>
+
+            <h3>Super Market List</h3>
+            <p>
+              {" "}
+              A list App made using React.js, using memory storage, and working
+              with a simulated API REST.
+            </p>
+          </div>
+
+          <div className="main__second__projects__item">
+            <a
               href="https://eebalcarcel.github.io/project-one-fakemdn/index.html"
               target="_blank"
               rel="noopener noreferrer"
@@ -100,7 +101,7 @@ const Main = () => {
             developers.
           </p>
         </div>
-        <div className="main__first__paragraph__button">
+        <div className="main__first__paragraph__button brown">
           <a
             href="https://github.com/luchosr"
             target="_blank"
@@ -114,8 +115,8 @@ const Main = () => {
         <h2>Get In Touch</h2>
         <p>Feel free to contact me by the following social networks!</p>
 
-        <div className="socialMedia">
-          <div className="socialMedia__icon bottom">
+        <div className="brown socialMedia">
+          <div className=" socialMedia__icon bottom">
             <a
               href="https://twitter.com/luchosr10"
               target="_blank"

@@ -25,7 +25,10 @@
   text-decoration: none;
   font-weight: bold;
 }
-a:visited {
+.brown a {
+  color: #8e8884;
+}
+.brown a:visited {
   color: #8e8884;
 }
 

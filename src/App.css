@@ -7,7 +7,10 @@ body {
   padding: 0;
   height: 100vh;
 }
-
+/* 
+a:visited {
+  color: #8e8884;
+} */
 @media (min-width: 1024px) {
   .App {
     display: flex;

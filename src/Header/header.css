@@ -1,3 +1,6 @@
+a:visited {
+  color: #ffffff;
+}
 .container {
   font-family: "Montserrat", sans-serif;
   /* display: flex;
@@ -32,8 +35,11 @@
   margin: 10px;
   color: #ffffff;
 }
+.socialMedia__icon a {
+  color: #ffffff;
+}
 .socialMedia__icon a:visited {
-  color: #a5a19f;
+  color: #ffffff;
 }
 .header h1 {
   margin-top: 50px;
