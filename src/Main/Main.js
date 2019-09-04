@@ -67,7 +67,7 @@ const Main = () => {
             >
               <img
                 src={superMarketList}
-                alt="first project"
+                alt="Super Market List"
                 className="main__second__projects__item__img"
               />
             </a>
@@ -89,7 +89,7 @@ const Main = () => {
               {" "}
               <img
                 src={fakeMDN}
-                alt="first project"
+                alt="Fake MDN"
                 className="main__second__projects__item__img"
               />
             </a>
