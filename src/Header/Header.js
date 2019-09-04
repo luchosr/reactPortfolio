@@ -1,6 +1,6 @@
 import React from "react";
-import "./header.css";
 import profile2 from "../img/profile2.jpg";
+import "./Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -8,6 +8,7 @@ import {
   faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+
 const Header = () => (
   <div className="container">
     <div className="header">
