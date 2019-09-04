@@ -1,10 +1,11 @@
 a:visited {
   color: #ffffff;
 }
+
 .container {
-  font-family: "Montserrat", sans-serif;
 }
 .header {
+  font-family: "Montserrat", sans-serif;
   height: 100%;
   background-image: url("../img/background.jpg");
   background-size: cover;
@@ -96,8 +97,8 @@ a:visited {
     margin-right: -80px;
   }
   .header h1 {
-    margin-left: 20px;
     font-size: 1.35em;
     text-align: right;
+    margin: 15px 15px;
   }
 }
