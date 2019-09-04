@@ -1,8 +1,8 @@
 import React from "react";
-import "./main.css";
 import fakeMDN from "../img/projects/fakeMDN.png";
 import initab from "../img/projects/initab.png";
 import superMarketList from "../img/projects/superMarketList.png";
+import "./main.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
@@ -56,7 +56,7 @@ const Main = () => {
             <p>
               {" "}
               A hand made clone of initab extension, using React.js, React Hooks
-              and Local Storage persistence.{" "}
+              and Local Storage persistence.
             </p>
           </div>
           <div className="main__second__projects__item">
