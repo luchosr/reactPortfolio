@@ -10,14 +10,17 @@ import {
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Header = () => (
-  <section className="header">
+  <aside className="header">
     <div className="header__inner">
-      <img
-        className="header__inner__avatar"
-        src={profile2}
-        alt="Luciano's profile"
-      />
-      <h1>
+      <figure>
+        <img
+          className="header__inner__avatar"
+          src={profile2}
+          alt="Luciano's profile"
+        />
+      </figure>
+
+      <h1 className="header__inner__description">
         <strong>Hi! I'm Luciano</strong>, a Front-end Web Developer enthusiast
         and passionate for new internet technologies.
       </h1>
@@ -25,6 +28,7 @@ const Header = () => (
     <div className="socialMedia">
       <div className="socialMedia__icon ">
         <a
+          className="socialMedia__icon__link"
           href="https://twitter.com/luchosr10"
           target="_blank"
           rel="noopener noreferrer"
@@ -34,6 +38,7 @@ const Header = () => (
       </div>
       <div className="socialMedia__icon ">
         <a
+          className="socialMedia__icon__link"
           href="https://github.com/luchosr"
           target="_blank"
           rel="noopener noreferrer"
@@ -43,6 +48,7 @@ const Header = () => (
       </div>
       <div className="socialMedia__icon ">
         <a
+          className="socialMedia__icon__link"
           href="mailto:luchosr@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
@@ -52,6 +58,7 @@ const Header = () => (
       </div>
       <div className="socialMedia__icon ">
         <a
+          className="socialMedia__icon__link"
           href="https://www.linkedin.com/in/luciano-ramello-b45411143/"
           target="_blank"
           rel="noopener noreferrer"
@@ -60,7 +67,7 @@ const Header = () => (
         </a>
       </div>
     </div>
-  </section>
+  </aside>
 );
 
 export default Header;

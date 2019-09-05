@@ -1,12 +1,10 @@
-a:visited {
-  color: #ffffff;
-}
-
-.container {
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 .header {
   font-family: "Montserrat", sans-serif;
-  height: 100%;
   background-image: url("../img/background.jpg");
   background-size: cover;
   flex-direction: column;
@@ -34,12 +32,11 @@ a:visited {
   margin: 10px;
   color: #ffffff;
 }
-.socialMedia__icon a {
-  color: #ffffff;
+.socialMedia__icon__link,
+.socialMedia__icon__link:visited {
+  color: #8e8884;
 }
-.socialMedia__icon a:visited {
-  color: #ffffff;
-}
+
 .header h1 {
   margin-top: 50px;
   color: rgba(255, 255, 255, 0.55);
@@ -67,7 +64,7 @@ a:visited {
 }
 
 @media (max-width: 736px) {
-  .header h1 {
+  .header__inner__description {
     font-size: 1.35em;
   }
 }
@@ -87,18 +84,17 @@ a:visited {
 @media (min-width: 1024px) {
   .header {
     padding: 0;
-    width: 30vw;
   }
   .header__inner {
-    width: 27vw;
+    width: 90%;
     padding-top: 120px;
   }
   .header__inner__avatar {
-    margin-right: -80px;
+    margin-right: -40px;
   }
-  .header h1 {
+  .header__inner__description {
     font-size: 1.35em;
     text-align: right;
-    margin: 15px 15px;
+    margin: 15px 10px;
   }
 }

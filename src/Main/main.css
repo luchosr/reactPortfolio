@@ -1,56 +1,69 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
 .main {
   text-align: left;
   padding: 30px 30px;
   color: #8e8884;
   background-color: #faf5ef;
 }
-.main__second h2 {
-  font-size: 40px;
-  margin-bottom: 50px;
-}
-.main__first__paragraph {
+
+.first-section__paragraph {
   line-height: 1.5em;
 }
-.main__first__paragraph__button {
+.button {
   border: 2px solid #c6bfbb;
   border-radius: 5px;
-  width: 100%;
+  width: 50%;
+
   height: 35px;
   text-align: center;
-  margin-top: 25px;
+  margin: 25px auto;
 }
-.main__first__paragraph__button a {
+.button__link {
   display: block;
   margin-top: 7px;
   text-decoration: none;
   font-weight: bold;
 }
-.brown a {
+.button__link:visited {
   color: #8e8884;
 }
-.brown a:visited {
+.socialMedia__icon__link,
+.socialMedia__icon__link:visited {
   color: #8e8884;
 }
-
-.main__second {
+.recent-projects {
   margin: 36px 0 36px 0;
   padding: 36px 0 36px 0;
   border-top: 2px solid #e8e1dd;
   border-bottom: 2px solid #e8e1dd;
 }
-.main__second__projects__item {
-  margin-bottom: 70px;
+.recent-projects__sub-heading {
+  font-size: 40px;
+  margin-bottom: 50px;
 }
-.main__second__projects__item__img {
+.projects__item {
+  margin-bottom: 170px;
+  text-align: center;
+}
+.projects__item__img {
   width: 70%;
   height: 50%;
   border-radius: 5px;
+}
+.github-button__link {
+  text-decoration: none;
+  font-size: 18px;
 }
 .bottom {
   color: #8e8884;
 }
 @media (min-width: 768px) {
-  .main__first__paragraph__button {
+  .first-section__paragraph__button {
     width: 50%;
     margin: 30px auto;
   }
