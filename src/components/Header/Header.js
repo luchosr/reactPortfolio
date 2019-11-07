@@ -1,5 +1,5 @@
 import React from "react";
-import profile2 from "../img/profile2.jpg";
+import profile2 from "../../img/profile/profile2.jpg";
 import "./Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -11,16 +11,16 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Header = () => (
   <aside className="header">
-    <div className="header__inner">
+    <div className="profile-block">
       <figure>
         <img
-          className="header__inner__avatar"
+          className="profile-block__avatar"
           src={profile2}
           alt="Luciano's profile"
         />
       </figure>
 
-      <h1 className="header__inner__description">
+      <h1 className="profile-block__description">
         <strong>Hi! I'm Luciano</strong>, a Front-end Web Developer enthusiast
         and passionate for new internet technologies.
       </h1>

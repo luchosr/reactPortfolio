@@ -5,16 +5,16 @@
 }
 .header {
   font-family: "Montserrat", sans-serif;
-  background-image: url("../img/background.jpg");
+  background-image: url("../../img/background/background.jpg");
   background-size: cover;
   flex-direction: column;
   padding: 25% 15% 15% 15%;
 }
-.header__inner {
+.profile-block {
   display: block;
   margin-bottom: 30px;
 }
-.header__inner__avatar {
+.profile-block__avatar {
   height: 150px;
   width: 150px;
   border-radius: 50%;
@@ -53,7 +53,7 @@
     height: 90%;
     padding: 45px 15px 55px 15px;
   }
-  .header__inner__avatar {
+  .profile-block__avatar {
     height: 130px;
     width: 130px;
   }
@@ -64,13 +64,13 @@
 }
 
 @media (max-width: 736px) {
-  .header__inner__description {
+  .profile-block__description {
     font-size: 1.35em;
   }
 }
 
 @media (max-width: 375px) {
-  .header__inner__avatar {
+  .profile-block__avatar {
     height: 150px;
     width: 150px;
   }
@@ -85,14 +85,14 @@
   .header {
     padding: 0;
   }
-  .header__inner {
+  .profile-block {
     width: 90%;
     padding-top: 120px;
   }
-  .header__inner__avatar {
+  .profile-block__avatar {
     margin-right: -40px;
   }
-  .header__inner__description {
+  .profile-block__description {
     font-size: 1.35em;
     text-align: right;
     margin: 15px 10px;

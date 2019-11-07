@@ -1,7 +1,7 @@
 import React from "react";
-import fakeMDN from "../img/projects/fakeMDN.png";
-import initab from "../img/projects/initab.png";
-import superMarketList from "../img/projects/superMarketList.png";
+import fakeMDN from "../../img/projects/fakeMDN.png";
+import initab from "../../img/projects/initab.png";
+import superMarketList from "../../img/projects/superMarketList.png";
 import "./main.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -22,8 +22,8 @@ const Main = () => {
           <strong> lot of curiosity and astonishment capacity</strong>, when I
           am not working on my projects, I'm usually swimming, going to the
           theater or volunteering. I am currently developing as a co-organizer
-          of freeCodeCamp Buenos Aires by stimulating web programming learning (
-          also learning in the process) and as an organizer of the Bitcoin
+          of freeCodeCamp Buenos Aires by stimulating web programming learning
+          (and also learning in the process) and as an organizer of Bitcoin
           Argentina NGO spreading the qualities of Bitcoin and decentralized
           consensus systems.
         </p>
