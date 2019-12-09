@@ -2,22 +2,21 @@ import React from "react";
 import fakeMDN from "../../img/projects/fakeMDN.png";
 import initab from "../../img/projects/initab.png";
 import superMarketList from "../../img/projects/superMarketList.png";
-import "./main.css";
+import "./content.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Main = () => {
   return (
-    <div className="main">
-      <section className="first-section">
-        <header>
-          <h2>
-            Actually I am based in Buenos Aires, doing my developments using
-            React.js library, Javascript, HTML5 and CSS3.
-          </h2>
-        </header>
-        <p className="first-section__paragraph">
+    <div className="content">
+      <main className="main">
+        <h2 className="main__heading">
+          Actually I am based in Buenos Aires, doing my developments using
+          Javascript, React.js, HTML5 and CSS3.
+        </h2>
+
+        <p className="main__paragraph">
           I usually perceive myself as a person with a
           <strong> lot of curiosity and astonishment capacity</strong>, when I
           am not working on my projects, I'm usually swimming, going to the
@@ -37,7 +36,7 @@ const Main = () => {
             Learn More
           </a>
         </div>
-      </section>
+      </main>
       <section className="recent-projects">
         <h2 className="recent-projects__sub-heading">Recent Projects</h2>
         <div className="projects">
@@ -119,9 +118,9 @@ const Main = () => {
           </a>
         </div>
       </section>
-      <section>
-        <h2>Get In Touch</h2>
-        <p>Feel free to contact me by the following social networks!</p>
+      <section className="contact-section">
+        <h2>Get In Touch!</h2>
+        <p>Feel free to contact me by the following social networks.</p>
 
         <div className=" socialMedia">
           <div className=" socialMedia__icon bottom">

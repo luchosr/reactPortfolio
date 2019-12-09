@@ -27,7 +27,6 @@
   margin-top: 25%;
   color: rgba(255, 255, 255, 0.55);
 }
-
 .social-media-icon {
   margin: 10px;
   color: #ffffff;
@@ -36,7 +35,6 @@
 .social-media-icon__link:visited {
   color: #8e8884;
 }
-
 .profile-block__description {
   margin-top: 50px;
   color: rgba(255, 255, 255, 0.55);
@@ -62,20 +60,17 @@
     padding-top: 0;
   }
 }
-
 @media (max-width: 736px) {
   .profile-block__description {
     font-size: 1.35em;
   }
 }
-
 @media (max-width: 375px) {
   .profile-block__avatar {
     height: 150px;
     width: 150px;
   }
 }
-
 @media (max-width: 768px) {
   .header {
     padding: 25% 10% 0 10%;

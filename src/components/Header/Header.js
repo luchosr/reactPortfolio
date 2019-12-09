@@ -25,7 +25,7 @@ const Header = () => (
         and passionate for new internet technologies.
       </h1>
     </div>
-    <div className="social-media">
+    {/* <section className="social-media">
       <div className="social-media-icon ">
         <a
           className="social-media-icon__link"
@@ -66,7 +66,7 @@ const Header = () => (
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
       </div>
-    </div>
+    </section> */}
   </header>
 );
 

@@ -4,15 +4,24 @@
   box-sizing: border-box;
 }
 
-.main {
+.content {
   text-align: left;
-  padding: 30px 30px;
+  /* padding: 30px 30px; */
   color: #8e8884;
   background-color: #faf5ef;
 }
-
-.first-section__paragraph {
+.main {
+  text-align: center;
+  padding: 30px 30px;
+  /* box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2); */
+}
+.main__heading {
+  margin-bottom: 25px;
+  font-weight: 800;
+}
+.main__paragraph {
   line-height: 1.5em;
+  font-weight: 400;
 }
 .button {
   border: 2px solid #c6bfbb;
@@ -32,17 +41,34 @@
 .button__link:visited {
   color: #8e8884;
 }
-.socialMedia__icon__link,
-.socialMedia__icon__link:visited {
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px;
+}
+
+.github-button__link,
+.github-button__link:visited,
+.socialMedia__icon a,
+.socialMedia__icon a:visited {
   color: #8e8884;
+}
+.socialMedia__icon {
+  margin: 10px;
+}
+.contact-section {
+  text-align: center;
 }
 .recent-projects {
   margin: 36px 0 36px 0;
   padding: 36px 0 36px 0;
-  border-top: 2px solid #e8e1dd;
-  border-bottom: 2px solid #e8e1dd;
+  background-color: #fafafa;
+  /* border-top: 2px solid #e8e1dd;
+  border-bottom: 2px solid #e8e1dd; */
 }
 .recent-projects__sub-heading {
+  text-align: center;
   font-size: 40px;
   margin-bottom: 50px;
 }
@@ -58,18 +84,20 @@
 .github-button__link {
   text-decoration: none;
   font-size: 18px;
+  display: block;
+  margin: 5px;
 }
 .bottom {
   color: #8e8884;
 }
 @media (min-width: 768px) {
-  .first-section__paragraph__button {
+  .main__paragraph__button {
     width: 50%;
     margin: 30px auto;
   }
 }
 @media (min-width: 1024px) {
-  .main {
+  .content {
     overflow: scroll;
   }
 }
